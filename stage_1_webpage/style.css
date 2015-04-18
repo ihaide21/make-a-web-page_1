@@ -1,0 +1,51 @@
+.body {
+	padding: 20px 10px;
+	font-family: Helvetica;
+	max-width: 2000px; 
+	margin: 0 auto;
+}
+
+.TOC {
+	text-align: center;
+	color: #828487;
+	text-decoration: none;
+	background-color: #294860;
+	color: white;
+	padding: 1px;
+	border-radius: 20px;
+}
+
+.items-of-TOC > a {
+	font-style: italic;
+	text-decoration: none;
+	color: #800033;
+	font-size: 19px;
+}
+
+.headings{
+	/*background-color: #b0c4de;*/
+	color:#006BB2;
+	/*text-decoration: underline;*/
+	font-weight: bold;
+	font-family: Verdana;
+	font-size: 22px;
+	border-radius: 20px;
+	margin-bottom: 01px;
+/*gives curve edges to the box*/
+	/*padding: 10px;*/
+/*margin: 10px auto;
+*/
+}
+
+
+.parag-contents{
+	font-size: 18px;
+	margin-top: 01px;
+/* i don't understand why there is
+still a gap (box) but how to reudce
+it? */
+	font-family: Georgia;
+	color: black;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
